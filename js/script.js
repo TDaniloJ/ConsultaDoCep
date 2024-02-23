@@ -14,3 +14,5 @@ function buscarEndereco() {
     })
     .catch(error => console.error('Erro:', error));
 }
+
+console.log("Author: Danilo Dias");
