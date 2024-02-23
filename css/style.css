@@ -53,7 +53,8 @@ label {
     background-color: #00aeff;
     color: white;
     cursor: pointer;
-    margin: auto;
+    margin-left: -3.8px;
+    border-radius: 0 10px 10px 0;
 }
 
 .btn:hover {
