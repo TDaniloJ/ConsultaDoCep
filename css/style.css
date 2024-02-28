@@ -11,15 +11,19 @@ body {
 .cabeca {
     background-color: #009edd;
     height: 65px;
-    padding-top: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
+    padding-top: 5px;
     border-bottom: 15px solid black;
 }
 
 h1 {
     text-align: center;
-    margin: 10px auto;
+    margin: -2.5% auto;
+}
+
+img {
+    margin: auto;
+    margin-left: 38%;
+    margin-top: 15px;
 }
 
 .buscadoCep {
@@ -27,13 +31,14 @@ h1 {
     max-width: 100%;
     height: 100px;
     text-align: center;
-    box-shadow: 2px 4px rgba(0, 0, 0, 0.226);
+    box-shadow: 2px 4px #0000003a;
 }
 
 input {
-    padding: 15px;
-    margin-top: 25px;
+    padding: 15px ;
     padding-right: 150px;
+    margin: auto;
+    margin-top: 25px;
     border: transparent;
     outline: none;
     border-radius: 10px 0 0 10px;
@@ -69,11 +74,26 @@ label {
     margin: 10px auto;
     background-color: #f7f7f7;
     outline: transparent;
-    border: 1px solid rgba(54, 54, 54, 0.164);
-    box-shadow: 5px 6px rgba(0, 0, 0, 0.185);
+    border: 1px solid #3636362a;
+    box-shadow: 5px 6px #0000002f;
 }
 
 .enderecoStyle p {
     font-weight: bold;
     padding-top: 40px;
+}
+
+.rodape {
+    width: 100%;
+    height: 50px;
+    background-color: #ffd900;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid black;
+}
+
+.rodape p {
+    padding-top: 15px;
 }

@@ -6,7 +6,7 @@ function buscarEndereco() {
     .then(response => response.json())
     .then(data => {
         if(data.erro) {
-            document.getElementById('endereco').innerText = "CEP não encontrado.";
+            document.getElementById('endereco').innerText = "CEP Não Encontrado.";
         } else {
             var endereco = `CEP: ${data.cep}, ${data.logradouro}, ${data.bairro}, ${data.localidade}, ${data.uf}`;
             document.getElementById('endereco').innerText = endereco;
