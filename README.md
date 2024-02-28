@@ -1,3 +1,3 @@
 # ConsultaDoCep
 
-Site que consulta o cep
+Site que consulta o CEP
